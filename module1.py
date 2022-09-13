@@ -10,10 +10,9 @@
 #-------------------------------------------------------------------------------
 
 def main():
-   nombre= "victor "
-   apellido= "guardia "
-   alumno= apellido+nombre
-   print(alumno)
+   nombre = input ("Ingrese su nombre")
+   dni = input ("ingrese su numero de DNI")
+   print(f'El nombre del usuario es {nombre} y su DNI es {dni}')
 
 
 
