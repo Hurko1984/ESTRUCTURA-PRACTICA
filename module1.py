@@ -10,10 +10,11 @@
 #-------------------------------------------------------------------------------
 
 def main():
-   alfajores= 50
-   cajas= 200
-   costo= alfajores * cajas
-   print(costo)
+   nombre= "victor "
+   apellido= "guardia "
+   alumno= apellido+nombre
+   print(alumno)
+
 
 
 if __name__ == '__main__':
