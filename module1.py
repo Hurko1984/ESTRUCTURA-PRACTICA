@@ -10,11 +10,12 @@
 #-------------------------------------------------------------------------------
 
 def main():
-   nombre = input ("Ingrese su nombre")
-   dni = input ("ingrese su numero de DNI")
-   print(f'El nombre del usuario es {nombre} y su DNI es {dni}')
+   a = 5
+   if (a < 4):
+       print (a)
 
 
+   print("proxima instruccion")
 
 if __name__ == '__main__':
     main()
