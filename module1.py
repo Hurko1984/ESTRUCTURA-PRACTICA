@@ -13,8 +13,10 @@ def main():
    a = 5
    if (a < 4):
        print (a)
+   elif (a == 5):
+       print("Es igual a 5")
    else:
-       print("No es menor a 4")
+       print("Es mayor a 5")
 
    print("proxima instruccion")
 
