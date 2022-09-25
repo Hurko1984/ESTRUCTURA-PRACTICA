@@ -10,14 +10,22 @@
 #-------------------------------------------------------------------------------
 
 def main():
-   a = 6
-   while (a > 0):
-         print(f'Número {a}!')
-         a = a - 1
+   palabra_secreta = "python"
+   contador = 0
+   while True:
+        palabra = input("Ingrese la palabra secreta: ").lower()
+        contador = contador + 1
+        if palabra == palabra_secreta:
+             break
+        if palabra != palabra_secreta and contador > 7:
+            break
 
    print("Próxima instrucción")
 
+
 main()
+
+
 
 
 
