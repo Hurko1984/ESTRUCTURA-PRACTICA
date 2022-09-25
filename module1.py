@@ -10,17 +10,16 @@
 #-------------------------------------------------------------------------------
 
 def main():
-   palabra_secreta = "python"
-   contador = 0
-   while True:
-        palabra = input("Ingrese la palabra secreta: ").lower()
-        contador = contador + 1
-        if palabra == palabra_secreta:
-             break
-        if palabra != palabra_secreta and contador > 7:
-            break
 
+   palabra_secreta = "python"
+   contador = 1
+   palabra = input("Ingrese la palabra secreta: ").lower()
+
+   while palabra != palabra_secreta and contador < 7:
+         palabra = input("Ingrese la palabra secreta: ").lower()
+         contador = contador + 1
    print("Próxima instrucción")
+
 
 
 main()
