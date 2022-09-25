@@ -10,17 +10,11 @@
 #-------------------------------------------------------------------------------
 
 def main():
+    a = "manzanas"
+    for i in range(0, len(a)):
+        print(a[i])
 
-   palabra_secreta = "python"
-   contador = 1
-   palabra = input("Ingrese la palabra secreta: ").lower()
-
-   while palabra != palabra_secreta and contador < 7:
-         palabra = input("Ingrese la palabra secreta: ").lower()
-         contador = contador + 1
-   print("Próxima instrucción")
-
-
+    print("Próxima instrucción")
 
 main()
 
