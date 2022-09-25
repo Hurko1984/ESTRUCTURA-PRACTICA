@@ -10,17 +10,14 @@
 #-------------------------------------------------------------------------------
 
 def main():
-   a = 5
-   if (a < 4):
-       print (a)
-   elif (a == 5):
-       print("Es igual a 5")
-   else:
-       print("Es mayor a 5")
+   a = 6
+   while (a > 0):
+         print(f'Número {a}!')
+         a = a - 1
 
-   print("proxima instruccion")
+   print("Próxima instrucción")
 
-if __name__ == '__main__':
-    main()
+main()
+
 
 
