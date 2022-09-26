@@ -12,9 +12,9 @@
 def main():
     a = "manzanas"
     for caracter in a:
-        print(caracter)
-        if  caracter == "n":
-            break
+        if  caracter == "z":
+            continue
+        print (caracter)
 
     print("Próxima instrucción")
 
