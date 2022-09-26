@@ -11,12 +11,15 @@
 
 def main():
     a = "manzanas"
-    for i in range(0, len(a)):
-        print(a[i])
+    for caracter in a:
+        print(caracter)
+        if  caracter == "n":
+            break
 
     print("Próxima instrucción")
 
 main()
+
 
 
 
