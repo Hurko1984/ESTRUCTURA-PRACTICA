@@ -10,15 +10,18 @@
 #-------------------------------------------------------------------------------
 
 def main():
-    a = "manzanas"
-    for caracter in a:
-        if  caracter == "z":
-            continue
-        print (caracter)
 
-    print("Próxima instrucción")
+
+    num1 = int(input("Digite un numero impar: "))
+    while(num1%2==0):
+
+               print(" no es impar ")
+
+               num1 = int(input("vuelva a digitar un numero impar: "))
+    print(f' {num1} este numero si es impar')
 
 main()
+
 
 
 
